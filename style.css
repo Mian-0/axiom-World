@@ -2,5 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    margin: 1;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    font-family: 'Montserrat', sans-serif;
+}
+/* Header */
+.custom-header-class{
+    height: 70px;
+}
+.navbar-brand{
+    padding: 0;
+}
+.header-logo{
+    height: 70px;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.navbar-navs-custom-class{
+    align-items: center;
+}
+.navbar-navs-custom-class li {
+    margin-right:35px;
+}
+.navbar-navs-custom-class li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+.navbar-navs-custom-class li a:hover{
+    color: #4684a3 !important;
+}
+.header-Btn{
+    min-width: 150px;
+    padding: 10px 29px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fef5f5;
+    line-height: 1.5em;
+    background-color: #dd1818;
+    border: none;
+    border-radius: 5px;
+}
+.dropdown-custom-toggler{
+    background:#397b9c;
+    width: 150px;
+    line-height: 15px;
+}
+.dropdown-custom-toggler li{
+    padding: 10px 20px;
+    margin: 0;
+}
+.dropdown-custom-toggler li:hover{
+    background: #DD1814;
+}
+.dropdown-custom-toggler a{
+    padding: 0;
+    font-size: 13px;
+}
+.dropdown-custom-toggler a:hover{
+    background: none !important;
 }
