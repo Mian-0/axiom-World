@@ -14,7 +14,7 @@ containerElements.forEach(function(container) {
       if (!container.matches(':hover')) {
         toggler.classList.remove('show');
       }
-    }, 100);
+    }, 20);
   });
 });
 
@@ -24,7 +24,7 @@ containerElements.forEach(function(container) {
       if (!container.matches(':hover')) {
         container.querySelector('.dropdown-custom-toggler').classList.remove('show');
       }
-    }, 100);
+    }, 20);
   });
 });
 
@@ -34,3 +34,15 @@ window.addEventListener('mouseleave', function() {
   });
 });
 
+// mobile icon change
+var iconElement = document.querySelector('.for-cahnging-icon-in-header');
+
+iconElement.addEventListener('click', function() {
+  if (iconElement.classList.contains('fa-bars')) {
+    iconElement.classList.remove('fa-bars');
+    iconElement.classList.add('fa-xmark');
+  } else {
+    iconElement.classList.remove('fa-xmark');
+    iconElement.classList.add('fa-bars');
+  }
+});
