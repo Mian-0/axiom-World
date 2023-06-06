@@ -57,12 +57,10 @@ for (let i = 0; i < boxes.length; i++) {
   const box = boxes[i];
   const title = titles[i];
 
-  // Add a 'mouseover' event listener to each box
   box.addEventListener('mouseover', function() {
     title.classList.add('hide-on-hover-services-section');
   });
 
-  // Add a 'mouseout' event listener to each box
   box.addEventListener('mouseout', function() {
     title.classList.remove('hide-on-hover-services-section');
   });
