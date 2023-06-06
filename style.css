@@ -7,6 +7,46 @@ body{
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
     font-family: 'Montserrat', sans-serif;
 }
+/* general styling */
+h1 {
+    color: white ;
+    font-size: 33px;
+    letter-spacing: .9px;
+    line-height: 1.4em;
+}
+h2{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    border-bottom: 5px solid red;
+    width: max-content;
+    letter-spacing: -.1px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+}
+.main-btn{
+    padding: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fef5f5;
+    line-height: 1.5em;
+    background-color: #dd1818;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    text-transform: uppercase;   
+    font-weight: 600;
+}
+.main-btn:hover{
+    font-size: 18px;
+    transition: all .3s ease;
+}
+.text-black{
+    color: #2f2f2f !important;
+}
+.text-blue{
+    color: #4369a2 !important;
+}
 /* Header */
 .custom-header-class{
     height: 70px;
@@ -63,4 +103,68 @@ body{
 }
 .dropdown-custom-toggler a:hover{
     background: none !important;
+}
+
+/* Hero section */
+.custom-styling-for-hero-container{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,#2D548F 40%,rgba(122,122,122,.0392156862745098) 100%);
+}
+.custom-styling-for-hero-row{
+    max-width: 1150px;
+    margin: 0 auto ;
+}
+.custom-class-for-hero-h1{
+    padding-top: 30px;
+    max-width:99%;
+}
+.custom-spacing-for-hero-col-1{
+    padding: 98px 0 0 25px;
+}
+
+/* Logos section */
+.custom-class-for-logos-grid-container{
+    height:200px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* About Section */
+.custom-class-about-section{
+    background-color: #f3f3f3;
+}
+.custom-class-for-row-in-about{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.card {
+    width: 272px;
+    height: 252px;
+    background-color: white;
+    overflow: hidden;
+    padding: 40px 30px 35px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 10px -3px rgba(0,0,0,.5);
+}
+.fa-cloud{
+    background-color: rgba(87,82,208,.1);
+    color: #5752d0;
+    height: 48px;
+    width: 48px;
+    font-size: 22px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 50%!important;
+    overflow: hidden;
+}
+.card-text{
+    padding-top: 20px;
+    font-size: 15px;
+    color: #8c8c8c;
+}
+.hide-on-hover-services-section{
+    display: none;
 }
