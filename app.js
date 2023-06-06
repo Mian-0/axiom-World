@@ -51,7 +51,7 @@ iconElement.addEventListener('click', function() {
 
 // CArds for services
 const boxes = document.getElementsByClassName('card');
-done
+let title = document.getElementsByClassName('Spann')
 
 for (let i = 0; i < boxes.length; i++) {
   const box = boxes[i];
@@ -59,27 +59,27 @@ for (let i = 0; i < boxes.length; i++) {
   // Add a 'mouseover' event listener to each box
   box.addEventListener('mouseover', function() {
     // Add the 'highlight' class when the box is hovered
-    this.classList.add('hide-on-hover-services-section');
+    title.classList.add('hide-on-hover-services-section');
   });
 
   // Add a 'mouseout' event listener to each box
   box.addEventListener('mouseout', function() {
     // Remove the 'highlight' class when the mouse moves out of the box
-    this.classList.remove('highlight');
+    title.classList.remove('highlight');
   });
 }
 
-// Get the card and title elements
-var card = document.getElementById('card');
-var title = document.getElementById('spann');
+// // Get the card and title elements
+// var card = document.getElementById('card');
+// var title = document.getElementById('spann');
 
-// Add event listener to the card element
-card.addEventListener('mouseenter', function() {
-  // Add the class to the title element
-  title.classList.add('hide-on-hover-services-section');
-});
+// // Add event listener to the card element
+// card.addEventListener('mouseenter', function() {
+//   // Add the class to the title element
+//   title.classList.add('hide-on-hover-services-section');
+// });
 
-card.addEventListener('mouseleave', function() {
-  // Remove the class from the title element
-  title.classList.remove('hide-on-hover-services-section');
-});
+// card.addEventListener('mouseleave', function() {
+//   // Remove the class from the title element
+//   title.classList.remove('hide-on-hover-services-section');
+// });
