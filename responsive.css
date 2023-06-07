@@ -1,3 +1,16 @@
+@media screen and (max-width: 960px) {
+    .navbar-navs-custom-class{
+        align-items: start !important;
+        padding: 6px 20px;
+    }
+    .navbar-navs-custom-class li{
+        width: 100%;
+    }
+    .dropdown-custom-toggler {
+        width: 100%;
+    }
+}
+
 @media only screen and (max-width: 960px) and (min-width: 768px){
      /* general styling */
      h1 {
@@ -14,8 +27,9 @@
     }
     /* Services section */
     .card-1{
-        margin-left: 0;
+        margin: auto;
     }
+    
 }
 
 @media screen and (max-width: 768px) {
@@ -44,5 +58,8 @@
 }
 
 @media screen and (max-width: 600px) {
-
+    /* Testiomonial section */
+    .testimonial-slide-container{
+        padding: 40px 30px;
+    }
 }

@@ -105,7 +105,6 @@ h2{
 .dropdown-custom-toggler a:hover{
     background: none !important;
 }
-
 /* Hero section */
 .custom-styling-for-hero-container{
     background-color: transparent;
@@ -227,4 +226,107 @@ h2{
 }
 .consultation-title{
     font-size: 25px;
+}
+
+/* Testimonial */
+.custom-class-for-testimonial-row{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.testimonial-title{
+    color: #19488F;
+    font-size: 42px;
+    font-weight: 700;
+}
+.testimonial-carousel-container{
+    width: 670px;
+    height: max-content;
+}
+.testimonial-slide-container{
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    z-index: 1;
+    background-color: #fff;
+    padding: 60px;
+}
+.testimonial-content-col-1 i{
+    color: #CF1818;
+    font-size: 30px;
+}
+.testimonial-content-col-2 p{
+    color: #666666;
+    font-size: 20px;
+}
+.testimonial-content-col-2 div{
+    color: #666666;
+    font-size: 14px;
+}
+.carousel-control-prev{
+    justify-content: left;
+    margin-left: -15px;
+}
+.carousel-control-next{
+    justify-content: right;
+    margin-right: -15px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: black;
+    border: 1px solid #111111;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 100px;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 5;
+    background-size: 115% 55%;
+    background-position: center;
+    box-shadow: 0 3px 10px 0 rgb(255 255 255 / 62%);
+    
+}
+.carousel-inner {
+    width: 100%;
+    overflow: hidden;
+    border: 2px solid #eeeeee;
+}
+.carousel-indicators{
+    margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+    padding: 5px;
+    width: 2px;
+    margin-top: 10px;
+}
+
+/* Footer */
+.custom-class-for-footer-row{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.footer-col-1-text{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 10px;
+}
+.footer-headings{
+    margin-top: 50px;
+    font-size: 19px;
+    color: #a4a4a4;
+}
+.footer-text a{
+    color: #19488f !important;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer-text a:hover{
+    color: black !important;
+}
+.bottom-footer-container{
+    border-top: 1px solid #cfcfcf;
+}
+.bottom-footer-text{
+    font-size: 13px;
+    color: black;   
 }
