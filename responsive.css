@@ -12,6 +12,10 @@
     .custom-styling-for-hero-container{
         height: 500px;
     }
+    /* Services section */
+    .card-1{
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -25,8 +29,20 @@
     .custom-spacing-for-hero-col-1{
         margin-left: -10px;
     }
+    /* Services */
+    .card {
+        width: 100%;
+    }
+    .card-1{
+        margin-left: 0;
+    }
+    .consultation-title{
+        font-size: 17px;
+        width: 60%;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    
+
 }

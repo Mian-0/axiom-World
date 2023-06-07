@@ -6,16 +6,17 @@
 body{
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 /* general styling */
 h1 {
-    color: white ;
+    color: black ;
     font-size: 33px;
     letter-spacing: .9px;
     line-height: 1.4em;
 }
 h2{
-    color: white;
+    color: #4369a2;
     font-size: 15px;
     font-weight: 100;
     border-bottom: 5px solid red;
@@ -140,6 +141,10 @@ h2{
 }
 
 /* Services Section */
+.custom-class-for-row-in-services{
+    max-width: 1150px;
+    margin: 0 auto;
+}
 .card {
     width: 272px;
     height: 252px;
@@ -148,6 +153,13 @@ h2{
     padding: 40px 30px 35px;
     border: 1px solid #eaeaea;
     box-shadow: 0 0 10px -3px rgba(0,0,0,.5);
+}
+.card-1{
+    margin-left: auto;
+}
+.card:hover{
+    background: rgb(156,148,226);
+    background: linear-gradient(180deg, rgba(156,148,226,1) 0%, rgba(129,125,219,1) 51%);
 }
 .fa-cloud{
     background-color: rgba(87,82,208,.1);
@@ -160,11 +172,59 @@ h2{
     border-radius: 50%!important;
     overflow: hidden;
 }
+.card-title{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
 .card-text{
     padding-top: 20px;
     font-size: 15px;
     color: #8c8c8c;
 }
+.card-text-on-hover{
+    color: white;
+    padding-top: 5px;
+}
+.fa-cloud-on-hover{
+    color: white;
+}
 .hide-on-hover-services-section{
     display: none;
+}
+.show-on-hover-services-section{
+    display: block !important;
+}
+.card-button{
+    width: fit-content;
+    height: 22px;
+    background-color: rgb(0 0 0 / 1%);
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Consultaion */
+.custom-class-for-consultation-container{
+    box-shadow: 5px 4px 29px 1px rgba(122,122,122,.41);
+    padding: 40px 0 50px 0;
+}
+.custom-calss-for-consultation-row{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.fa-phone-volume{
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    transform: translateX(-50%);
+    color: #DD1818;
+    transform: rotate(41deg);
+    margin-top: 20px;
+}
+.consultation-title{
+    font-size: 25px;
 }
