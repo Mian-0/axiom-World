@@ -49,6 +49,16 @@ h2{
 .text-blue{
     color: #4369a2 !important;
 }
+.custom-width-for-row{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.custom-class-for-text{
+    font-size: 17.3px;
+}
+.custom-spacing-for-cols{
+    padding-left: 25px;
+}
 /* Header */
 .custom-header-class{
     height: 70px;
@@ -120,9 +130,6 @@ h2{
 }
 .custom-spacing-for-hero-col-1{
     padding: 98px 0 0 25px;
-}
-.navbar-navs-custom-class li a:hover {
-    color: white !important;
 }
 /* Logos section */
 .custom-class-for-logos-grid-container{
