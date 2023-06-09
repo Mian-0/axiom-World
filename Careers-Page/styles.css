@@ -1,0 +1,55 @@
+.careers-page-banner-conatienr{
+    background-color: transparent;
+    background-image: linear-gradient(0deg,rgba(122,122,122,.0392156862745098) 0%,rgba(122,122,122,.25) 71%);
+    padding: 66px 0;
+}
+.custom-spacing-for-cols{
+    padding-left: 40px;
+}
+.Title-for-main{
+    font-size: 52px;
+    margin-left: -1px;
+}
+.about-hero-banner{
+    margin-top: 15px;
+}
+.custom-styling-for-unstyled-list {
+    padding-left: 15px;
+    margin-top: 30px;
+}
+.custom-styling-for-unstyled-list li{
+    font-size: 17px;
+    margin-bottom: 10px;
+    padding-left: 13px;
+    color: #000;
+}
+.custom-styling-for-unstyled-list li::marker {
+    content: "\f058"; /* FontAwesome Unicode */
+    font: var(--fa-font-solid);
+    color: #19488F;
+    font-size: 16px;
+  }
+@media only screen and (max-width: 960px) and (min-width: 768px){
+    .custom-styling-for-hero-image{
+        width: -webkit-fill-available !important;
+    }
+}
+    
+
+/* Consultation */
+.icon-consultation-container i{
+    transform: rotate(0deg);
+    margin-top: 0;
+    font-size: 45px;
+}
+@media screen and (max-width: 767px) {
+    .consultation-title{
+        width: 100%;
+    }
+    .custom-spacing-for-cols{
+        padding-left: 12px;
+    }
+    .carres-title-hero{
+        font-size: 22px;
+    }
+}

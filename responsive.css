@@ -38,7 +38,7 @@
 @media screen and (max-width: 768px) {
     /* general styling */
     h1 {
-        font-size: 22px;
+        font-size: 30px;
     }
     h2{
         font-size: 15px;
@@ -70,5 +70,8 @@
     /* Testiomonial section */
     .testimonial-slide-container{
         padding: 40px 30px;
+    }
+    .consultation-title{
+        width: 80%;
     }
 }
