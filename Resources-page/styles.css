@@ -1,0 +1,9 @@
+.resoursces-page-banner-conatienr{
+    background-color: rgba(122,122,122,.08);
+    padding-bottom: 60px;
+}
+.icon-consultation-container i{
+    transform: rotate(0deg);
+    margin-top: 0;
+    font-size: 45px;
+}

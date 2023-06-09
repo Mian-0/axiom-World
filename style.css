@@ -59,6 +59,10 @@ h2{
 .custom-spacing-for-cols{
     padding-left: 25px;
 }
+.responsive-title-for-pages{
+    font-size: 52px;
+    margin-left: -1px;
+}
 /* Header */
 .custom-header-class{
     height: 70px;
@@ -224,7 +228,7 @@ h2{
     max-width: 1150px;
     margin: 0 auto;
 }
-.fa-phone-volume{
+.icon-consultation-container i{
     font-size: 40px;
     width: 70px;
     height: 70px;
