@@ -52,6 +52,16 @@
     .responsive-title-for-pages{
         font-size: 30px;
     }
+    .apps-title-hero{
+        font-size: 21px;
+        color: #19488F;
+    }
+    .custom-spacing-for-cols-apps{
+        padding-left: 30px;
+    }
+    .custom-widths-for-software-cards{
+        width: 75%;
+    }
     /* Services */
     .card {
         width: 100%;
