@@ -106,6 +106,7 @@ h2{
 }
 .logoSlider {
     overflow-x: auto;
+    overflow-y: hidden;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     height: 300px;
