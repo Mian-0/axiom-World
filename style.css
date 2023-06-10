@@ -120,6 +120,7 @@ h2{
     border-radius: 3px;
     width: 50vh;
     height: auto;
+    padding: 0 3em;
 }
 .background-color-apps-sections-container{
     background-color: #fafafa;
