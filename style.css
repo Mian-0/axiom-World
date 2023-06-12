@@ -142,6 +142,16 @@ h2{
     width: 100%;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
 }
+.accounting-container-backgorund-color-hero{
+    background-color: transparent;
+    background-image: linear-gradient(180deg,rgba(122,122,122,.13) 40%,rgba(122,122,122,.0392156862745098) 100%);
+}
+.icon-change-for-accounting li::marker {
+    content: "\f1d8"; /* FontAwesome Unicode */
+    font: var(--fa-font-solid);
+    color: #19488F;
+    font-size: 16px;
+}
 /* Header */
 .custom-header-class{
     height: 70px;

@@ -171,4 +171,4 @@ class LogoSlider {
 
 // Usage
 const slider1 = new LogoSlider('slider1');
-// const slider2 = new LogoSlider('slider2');
+const slider2 = new LogoSlider('slider2');
