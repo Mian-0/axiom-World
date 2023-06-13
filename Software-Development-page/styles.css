@@ -1,0 +1,14 @@
+.custom-color-for-software-container-hero{
+    background-color: transparent;
+    background-image: linear-gradient(0deg,rgba(122,122,122,.0392156862745098) 0%,rgba(122,122,122,.29) 71%);
+}
+.custom-styling-for-unstyled-list-for-rpa {
+    padding-left: 15px;
+    list-style-type: square;
+}
+.custom-styling-for-unstyled-list-for-rpa li{
+    font-size: 19px;
+}
+.custom-styling-for-unstyled-list-for-rpa li::marker{
+    font-size: 20px;
+}
