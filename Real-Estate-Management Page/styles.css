@@ -1,0 +1,19 @@
+.custom-background-for-container-hero{
+    background: url("images/banner-bg.png") center no-repeat;
+    background-size: cover;
+}
+.headingfor-real-estate-management{
+    font-size: 48px;
+    line-height: 65px;
+}
+.real-estate-companies-section{
+    background: #252b42;
+    padding: 80px 0 !important;
+}
+.custom-styling-real-estate-icon-list li{
+    color: white;
+    margin-bottom: 20px;
+}
+.custom-styling-real-estate-icon-list li::marker{
+    color: #4FAC73;
+}
