@@ -208,6 +208,14 @@ h2{
 .dropdown-custom-toggler a:hover{
     background: none !important;
 }
+.custom-class-for-industries-dropdown{
+    margin-left: 140px;
+    margin-top: -25px;
+}
+.custom-class-for-serviceIndustry-dropdown{
+    margin-left: 196px;
+    margin-top: -34px;
+}
 /* Hero section */
 .custom-styling-for-hero-container{
     background-color: transparent;

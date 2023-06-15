@@ -12,6 +12,23 @@
     .navbar-navs-custom-class li a:hover {
         color: #0000008c !important;
     }
+    .custom-class-for-industries-dropdown{
+        margin-left: -10px;
+        margin-top: 0px;
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: -10px;
+    }
+    .on-hover-background-remover:hover{
+        background: #397b9c !important;
+    }
+    .custom-class-for-serviceIndustry-dropdown{
+        margin-left: 0px;
+        margin-top: 0px;
+        border: none;
+        padding-bottom: 0;
+        margin-bottom: -10px;
+    }
 }
 
 @media only screen and (max-width: 960px) and (min-width: 768px){
