@@ -112,6 +112,40 @@
     font-size: 16px !important;
     display: flex;
 }
+/* Security Measures */
+.custom-background-for-container-Security-measures{
+    background-color: #252B42;
+    background-image: url(images/half-circle.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 250px;
+    padding: 100px 0 !important;
+}
+.Title-for-Security-measures{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 55px;
+}
+.security-card-text{
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+/* Consultaion */
+.custom-class-for-consultation-container{
+    background-color: #F9FAFC;
+    background-image: url(images/half-circle-1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 120px;
+}
+.consultation-title{
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 40px;
+}
 @media screen and (max-width: 767px) {
     .headingfor-real-estate-management{
         font-size: 14px;
@@ -135,6 +169,22 @@
     }
     .logoSlider{
         height: max-content;
+    }
+    /* Security */
+    .security-card-text-box{
+        text-align: center;
+    }
+    .Title-for-Security-measures{
+        font-size: 22px;
+        line-height: normal;
+    }
+    .custom-background-for-container-Security-measures{
+        padding: 20px 0 !important;
+    }
+    .security-cards{
+        justify-content: center;
+        flex-direction: column;
+        margin: 20px 0;
     }
 }
 @media screen and (max-width: 968px) and (min-width:768px) {
