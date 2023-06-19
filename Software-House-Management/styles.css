@@ -1,0 +1,196 @@
+/* Hero */
+.custom-background-for-container-hero{
+    background: url("images/software-house-bg.png") center right no-repeat;
+    background-size: contain;
+}
+/* Real-estate section */
+.headingfor-real-estate-management{
+    font-size: 40px;
+    line-height: 65px;
+}
+.real-estate-companies-section{
+    background: #252b42;
+    padding: 80px 0 !important;
+}
+.custom-styling-real-estate-icon-list li{
+    color: white;
+    margin-bottom: 20px;
+}
+.custom-styling-real-estate-icon-list li::marker{
+    color: #4FAC73;
+}
+/* Logos */
+.grey-scale-filter-for-images{
+    filter: grayscale(1);
+}
+/* Content switcher */
+.custom-background-for-container-content-switcher{
+    background: #f6fbf9;
+}
+.custom-styling-for-content-switcher-section-title{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.custom-paddings-and-margins-for-primary-selector{
+    background-color: #fff;
+    box-shadow: 5px 5px 42px 1px rgba(0, 0, 0, 0.09);
+    padding: 100px 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.custom-styling-for-main-content-selector-container{
+    margin-right:15px;
+    padding: 0;
+}
+.main-content-selector-ul-container{
+    list-style: none;
+    padding-left: 20px;
+}
+.main-content-selector-ul-container li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #888888;
+    text-transform: uppercase;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.main-content-selected{
+    line-height: 19px !important;
+    font-size: 14px !important;
+    color: #151515 !important;
+    border-bottom: 2px solid #ff0000;
+    text-transform: capitalize !important;
+}
+.custom-styling-for-Secondary-content-selector-container{
+    margin-top: 30px;
+    padding: 30px 15px 0px ;
+}
+.custom-styling-for-content-container{
+    border-left:5px solid transparent;
+    margin-top: 30px;
+    padding: 30px 15px 0px ;
+    border-image: url(images/verticle-line.png) 80 repeat;
+}
+.title-for-content-in-selector{
+    font-size: 24px;
+    color: #151515;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.secondary-content-selector-ul-container{
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.secondary-content-selector-ul-container li{
+    font-size: 16px;
+    color: #151515;
+    font-weight: 400;
+    line-height: 25px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.icon-in-secondary-selector{
+    padding-right: 10px;
+    margin-top: -4px;
+}
+.custom-styling-for-unstyled-list-for-rpa {
+    padding-left: 26px;
+    list-style-type: square;
+}
+.custom-styling-for-unstyled-list-for-rpa li{
+    font-size: 17px;
+}
+.custom-styling-for-unstyled-list-for-rpa li::marker{
+    font-size: 25px;
+    color: #ff0000;
+}
+.show-icon-in-secondary-selector{
+    border-bottom: none;
+    font-size: 16px !important;
+    display: flex;
+}
+/* Consultaion */
+.custom-class-for-consultation-container{
+    background-color: #F9FAFC;
+    background-image: url(images/half-circle-1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 120px;
+}
+.consultation-title{
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.consultation-Btn{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    background-color: #A50238;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #A50238;
+    box-shadow: 0 10px 10px 0 rgba(56,56,56,.02);
+    padding: 12px 15px 12px 15px;
+    color: white;
+}
+.consultation-Btn:hover{
+    color: #A50238;
+    background-color: #02010100;
+}
+@media screen and (max-width: 767px) {
+    .headingfor-real-estate-management{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .real-estate-companies-section{
+        padding: 0 0 !important;
+    }
+    .custom-class-for-mobile-switcher-col-1{
+        padding: 0;
+    }
+    .custom-class-for-mobile-switcher-col-1 li{
+        margin:0px;
+        margin-right: 15px;
+        padding: 10px 0;
+        width: max-content;
+        font-size: 14px !important;
+    }
+    .logo{
+        width: auto;
+    }
+    .logoSlider{
+        height: max-content;
+    }
+    /* Consultation  */
+    .consultation-title{
+        font-size: 22px;
+        line-height: 30px;
+        width: 100%;
+    }
+    .text-and-button-consultaion{
+        text-align: left;
+        padding: 0 30px;
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 968px) and (min-width:768px) {
+    .headingfor-real-estate-management {
+        font-size: 24px;
+        line-height: 23px;
+    }
+    .real-estate-companies-section {
+        padding: 20px 0 !important;
+    }
+    .custom-styling-for-hero-image{
+        width: 90% !important;
+        padding-top: 20px;
+    }
+    .custom-styling-for-content-container{
+        padding: 0 40px;
+    }
+}
