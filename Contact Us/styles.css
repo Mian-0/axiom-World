@@ -1,0 +1,57 @@
+.custom-width-for-row-in-contact {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.form-container-in-contact{
+    margin: 2px 6px -4px 5px;
+    padding: 66px 35px 38px 35px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 9px 1px rgba(0,0,0,.5);
+}
+.container-for-label-and-input{
+    margin-bottom: 20px;
+    padding: 0 4px;
+}
+.container-for-label-and-input label{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.container-for-label-and-input label span{
+    color: #19488F;
+}
+.container-for-label-and-input input,textarea{
+    border: 1px solid #818a91;
+    background-color: rgba(110,193,228,.11);
+    line-height: 1.4;
+    font-size: 15px;
+    min-height: 40px;
+    padding: 5px 14px;
+    border-radius: 3px;
+    width: 100%;
+}
+.form-button-in-contact{
+    width: 100%;
+    min-height: 40px;
+    background-color: #19488F;
+    font-size: 20px;
+    border-radius: 20px 20px 20px 20px;
+    border: none;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+}
+.form-button-in-contact:hover{
+    transform: scale(.9);
+    background-color: #DD1818;
+}
+.logoSlider{
+    height: 100%;
+}
+.logo{
+    padding: 20px;
+    height: 111px;
+    width: 111px;
+}
