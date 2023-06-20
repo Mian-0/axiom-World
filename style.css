@@ -140,6 +140,7 @@ h2{
 .custom-widths-for-software-cards{
     width: 100%;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition: all .3s ease;
 }
 .accounting-container-backgorund-color-hero{
     background-color: transparent;
@@ -160,6 +161,9 @@ hr{
     height: 1px;
     background: linear-gradient(rgba(192,204,218,.1),rgba(192,204,218,.6),rgba(192,204,218,.1));
     margin: 0;
+}
+.custom-widths-for-software-cards:hover{
+    scale: 1.1;
 }
 /* Header */
 .custom-header-class{
