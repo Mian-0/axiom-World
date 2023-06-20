@@ -18,32 +18,45 @@
     <title>Oracle Accounting ERP and Consulting Services | Axiom World</title>
     <style>
       .logoSlider {
-    overflow-x: auto;
-    overflow-y: hidden;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    /* height: max-content; */
-  }
+        overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+        /* height: max-content; */
+      }
   
-  .logoSlider::-webkit-scrollbar {
-    display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
-  }
-  
-  .logoContainer {
-    display: flex;
-  }
-  
-  .logo {
-    border-radius: 3px;
-    width: 50vh;
-    height: 200px;
-    padding: 0 3em;
-}
+      .logoSlider::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari, and Opera */
+      }
+      
+      .logoContainer {
+        display: flex;
+      }
+      .logo {
+          border-radius: 3px;
+          width: 50vh;
+          height: 200px;
+          padding: 0 3em;
+        }
+      @media only screen and (max-width: 960px) and (min-width: 768px){
+        .logo {
+          border-radius: 3px;
+          width: 50vh;
+          height: 100px;
+          padding: 0 3em;
+        }
+      }
+      @media screen and (max-width: 768px) {
+
+        .logo {
+          height: 100px;
+        }
+      }
     </style>
   </head>
   <body>
     <!-- header -->
-    <nav class="navbar mb-lg-0 mb-3 navbar-expand-lg navbar-light custom-header-class">
+    <nav class="navbar mb-lg-0 mb-0 p-0 px-2 navbar-expand-lg navbar-light custom-header-class">
       <div class="container-fluid mx-lg-5 p-0">
         <a class="navbar-brand" href="index.html"><img src="images/axiom-logo.png" class="header-logo" alt="" srcset=""></a>
         <div class="mobileheader-btn-and-icon d-flex d-lg-none">
@@ -136,15 +149,15 @@
       </div>
     </nav>
     <!-- Hero Section -->
-    <div class="container-fluid p-0 custom-styling-for-hero-container">
+    <div class="container-fluid p-0 custom-styling-for-hero-container" style="padding-bottom: 28px !important;">
       <div class="row g-0 custom-styling-for-hero-row">
         <div class="col-md-6 custom-spacing-for-hero-col-1">
-          <h2 class="fw-lighte text-white">Driving growth through innovation</h2>
-          <h1 class="w-lg-75 custom-class-for-hero-h1 text-white"><b>Professional Accounting ERP and Consulting Services</b> for Enterprises Under One Roof</h1>
-          <button class="main-btn mt-4">Explore Services</button>
+          <h2 class=" text-white mb-1 hero-container-h2">Driving growth through innovation</h2>
+          <h1 class="w-lg-75 custom-class-for-hero-h1 text-white"><b class="">Professional Accounting ERP and Consulting Services</b> for<br> Enterprises Under One Roof</h1>
+          <button class="main-btn mt-4 main-text-button-in-hero">Explore Services</button>
         </div>
-        <div class="col-md-6 d-flex justify-content-center mt-lg-4 mt-md-3 mt-5">
-          <img src="images/Professional-Accounting-ERP-and-Consulting-Services.png" class="w-100">
+        <div class="col-md-6 d-flex justify-content-center align-items-center mt-lg-4 mt-md-3 mt-5">
+          <img src="images/Professional-Accounting-ERP-and-Consulting-Services.png" class="img-fluid hero-image">
         </div>
       </div>
     </div>
@@ -174,8 +187,8 @@
       <div class="row custom-class-for-row-in-about">
         <div class="col-md-6 pt-5 w-md-75 ps-lg-4 custom-class-for-col-1-about">
           <div class="about-content-wrapper-col-1">
-            <h2 class="text-blue mb-lg-4 text-black">About Axiom World</h2>  
-            <h1 class="text-black">Crafting Business Financial & <b>IT Solutions for Enterprises</b></h1>   
+            <h2 class="text-blue mb-lg-4 for-h2-in-about-section text-black mb-2">About Axiom World</h2>  
+            <h1 class="text-black for-title-in-about-section">Crafting Business Financial & <br class="d-md-block d-none"><b>IT Solutions for Enterprises</b></h1>   
             <p>We are surrounded by simple, obvious solutions that can dramatically
               <b>increase business profitability, efficiency and growth.</b>
               Axiom World discovers and implement <b>ERP consulting services</b> for you!

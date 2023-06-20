@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all .3s ease;
 }
 html{
     overflow-x: hidden !important;
@@ -23,12 +24,13 @@ h2{
     color: #4369a2;
     font-size: 15px;
     font-weight: 400;
-    border-bottom: 5px solid red;
+    border-bottom: 3.6px solid #DD1818;
     width: max-content;
     letter-spacing: -.1px;
     line-height: 1.9em;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
+
 .main-btn{
     padding: 17px;
     font-size: 16px;
@@ -110,6 +112,7 @@ h2{
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     height: 300px;
+    background: transparent;
   }
   
   .logoSlider::-webkit-scrollbar {
@@ -241,6 +244,39 @@ hr{
 .custom-class-for-hero-h1{
     padding-top: 30px;
     max-width:99%;
+    color: #FFF;
+    font-family: "Montserrat",Montserrat;
+    font-size: 33px;
+    line-height: 1.4em;
+    letter-spacing: .9px;
+}
+.hero-container-h2{
+    color: #4369a2;
+    font-size: 15px;
+    font-weight: 400;
+    border-bottom: 3.6px solid #DD1818;
+    width: max-content;
+    letter-spacing: -.1px;
+    line-height: 1.9em;
+    text-transform: uppercase;
+}
+.main-text-button-in-hero{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1.1em;
+    letter-spacing: -.6px;
+    text-shadow: 0 0 10px rgba(0,0,0,.3);
+    fill: #FFF;
+    color: #FFF;
+    background-color: #DD1818;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    padding: 17px 17px 17px 17px;
+}
+b{
+    font-weight: 600;
 }
 .custom-spacing-for-hero-col-1{
     padding: 98px 0 0 25px;
@@ -260,6 +296,13 @@ hr{
 .custom-class-for-row-in-about{
     max-width: 1150px;
     margin: 0 auto;
+}
+.for-title-in-about-section{
+    color: #020101;
+    font-size: 29px;
+    line-height: 1.1em;
+    letter-spacing: .9px;
+    font-weight: 400;
 }
 
 /* Services Section */

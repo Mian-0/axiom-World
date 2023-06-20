@@ -38,12 +38,27 @@
     }
     h2{
         font-size: 12px;
+        border-bottom: 3.2px solid #DD1818;
+        line-height: 14px;
     }
-    .custom-spacing-for-hero-col-1{
-        margin-left: -10px;
+    b{
+        font-weight: 600;
     }
-    .custom-styling-for-hero-container{
+    /* .custom-styling-for-hero-container{
         height: 500px;
+    } */
+    /* Hero */
+    .custom-spacing-for-hero-col-1{
+        padding-left: 25px;
+    }
+    .custom-class-for-hero-h1{
+        font-size: 27px;
+        padding-top: 30px !important;
+    }
+    .hero-image{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
     /* Services section */
     .card-1{
@@ -61,7 +76,7 @@
 @media screen and (max-width: 768px) {
     /* general styling */
     h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
     h2{
         font-size: 15px;
@@ -84,6 +99,24 @@
     }
     .custom-widths-for-software-cards{
         width: 75%;
+    }
+    /* hero */
+    .custom-class-for-hero-h1{
+        font-size: 22px;
+        padding-top: 25px;
+    }
+    .hero-container-h2{
+        font-size: 12px;
+    }
+    /* about */
+    .for-title-in-about-section{
+        font-size: 21px;
+    }
+    .for-h2-in-about-section{
+        line-height: 19px;
+    }
+    .custom-class-for-col-1-about{
+        padding-left: 15px !important;
     }
     /* Services */
     .card {
