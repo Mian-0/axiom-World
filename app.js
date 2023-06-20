@@ -139,3 +139,8 @@ class LogoSlider {
 // Usage
 const slider1 = new LogoSlider('slider1');
 const slider2 = new LogoSlider('slider2');
+
+
+function myFunc101(){
+  window.location.href = '/Contact Us/Contact.html';
+}
