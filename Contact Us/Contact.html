@@ -117,8 +117,10 @@
     <!-- Heroo -->
     <div class="container-fluid p-0 pb-5">
         <div class="custom-width-for-row-in-apps pt-5">
-            <h2 class="mb-3">CONTACT US</h2>
-            <h1 class="lh-2 fs-3 fw-normal"><b>Reach Out to Us!</b></h1>
+            <div class="col-12 ps-md-5 ps-lg-0">
+                <h2 class="mb-3">CONTACT US</h2>
+                <h1 class="lh-2 fs-3 fw-normal"><b>Reach Out to Us!</b></h1>
+            </div>
         </div>
         <div class="row custom-width-for-row-in-contact pt-4">
             <div class="col-md-6 ">
@@ -126,23 +128,23 @@
                     <form>
                         <div class="container-for-label-and-input">
                           <label for="Fullname" class="form-label">Name <span class="Label-in-*">*</span></label>
-                          <input type="text" class="form-control" placeholder="Full Name" id="Fullname" aria-describedby="emailHelp">
+                          <input type="text" required class="form-control" placeholder="Full Name" id="Fullname" aria-describedby="emailHelp">
                         </div>
                         <div class="container-for-label-and-input">
                           <label for="Email" class="form-label">Email <span class="Label-in-*">*</span></label>
-                          <input type="email" placeholder="abc@example.com" class="form-control" id="Email">
+                          <input type="email" required placeholder="abc@example.com" class="form-control" id="Email">
                         </div>
                         <div class="container-for-label-and-input">
                           <label for="Company-name" class="form-label">Company Name <span class="Label-in-*">*</span></label>
-                          <input type="text" class="form-control" placeholder="Example Pvt. Ltd" id="Company-name">
+                          <input type="text" required class="form-control" placeholder="Example Pvt. Ltd" id="Company-name">
                         </div>
                         <div class="container-for-label-and-input">
                           <label for="Company-name" class="form-label">Contact No. <span class="Label-in-*">*</span></label>
-                          <input type="text" class="form-control" placeholder="+92---------" id="Company-name">
+                          <input type="number" required class="form-control" placeholder="+92---------" id="Company-name">
                         </div>
                         <div class="container-for-label-and-input">
                           <label for="Company-name" class="form-label">Message <span class="Label-in-*">*</span></label>
-                          <textarea name="" id="Company-name" placeholder="I want to ------" cols="41" rows="4"></textarea>
+                          <textarea name="" required id="Company-name" placeholder="I want to ------" cols="41" rows="4"></textarea>
                         </div>
                         <button type="submit" class="form-button-in-contact">Send</button>
                     </form>
@@ -167,7 +169,7 @@
 
             </div>
             <div class="col-md-6 py-md-0 py-5 d-flex align-items-center">
-                <div class="content-contact">
+                <div class="content-contact w-100">
                     <h1 class="mb-3"><span style="color: #000000;">Tell Us What You Need!</span></h1>
                     <p class="mb-3">Axiom is always ready to tackle new challenges and overcome these challenges with our amazing team &amp; experiences.<br><b></b></p>
                     <hr>
@@ -224,6 +226,75 @@
                 
             </div>
         </div>
+    </div>
+
+    <!-- Cards for Contact Us -->
+    <div class="container-fluid p-0 pb-5">
+      <div class="custom-width-for-row-in-apps pt-5">
+        <div class="col-12">
+          <h2 class="Title-for-contact-us-cards">Our Global Offices</h2>
+        </div>
+        <div class="col-12 p-0 mt-5">
+          <div class="row">
+            <!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/usa-flag-50x50.png" width="50" height="50" alt="">
+                <h1>USA</h1>
+                <p>10630 Little Patuxent Pkwy, Suite 314-D7, Columbia, MD 21044</p>
+                <p>info@axiomworld.net</p>
+                <p>+17162000664</p>
+              </div>
+            </div>
+            <!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/pak-flag-1.png" width="50" height="50" alt="">
+                <h1>Pakistan</h1>
+                <p>146-D1, Adjacent to Evercare Hospital, Nespak Society <br><b>Lahore</b></p>
+                <p>info@axiomworld.net</p>
+                <p>+92-3026667539</p>
+              </div>
+            </div><!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/pak-flag-1.png" width="50" height="50" alt="">
+                <h1>Pakistan</h1>
+                <p>Suite 1, Dost Building FL-5, Railway Housing Society, Stadium Road,<b>Karachi</b></p>
+                <p>tahir.habib@inserito.com</p>
+                <p>+92-3332387869</p>
+              </div>
+            </div><!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/ireland-flag-1.png" width="50" height="50" alt="">
+                <h1>Ireland</h1>
+                <p>27 Annfield Court, Porterstown, Dublin 15, Ireland</p>
+                <p>info@axiomworld.ie</p>
+                <p>+353831117688</p>
+              </div>
+            </div><!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/dubai-office-150x150.png" width="50" height="50" alt="">
+                <h1>Dubai</h1>
+                <p>The Elite Business Center-15, 5 street, 4 Floor, Office No. 410 Al Barsha-1, Hadaeq Mohammed Bin Rashid, Dubai</p>
+                <p>info@axiomworld.net</p>
+                <p>+971506150844</p>
+              </div>
+            </div><!-- Card -->
+            <div class="col-md-3 p-0">
+              <div class="card-contact-page">
+                <img src="images/australia-50x50.png" width="50" height="50" alt="">
+                <h1>Australia</h1>
+                <p>53A Barnstaple Road, five Dock 2046 NSW</p>
+                <p>info@axiomworld.net</p>
+                <p>+61421729020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     
