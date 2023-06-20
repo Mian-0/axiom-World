@@ -42,10 +42,10 @@ h2{
     text-transform: uppercase;   
     font-weight: 600;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+    transition: all .3s ease;
 }
 .main-btn:hover{
-    font-size: 18px;
-    transition: all .3s ease;
+    scale: 1.1;
 }
 .text-black{
     color: #2f2f2f !important;
