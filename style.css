@@ -303,7 +303,12 @@ b{
     line-height: 1.1em;
     letter-spacing: .9px;
     font-weight: 400;
+    margin-bottom: 25px;
 }
+.text-in-about-home-page{
+    padding-right: 90px !important;
+}
+
 
 /* Services Section */
 .custom-class-for-row-in-services{
@@ -340,7 +345,7 @@ b{
 .card-title{
     color: white;
     font-size: 20px;
-    font-weight: lighter;
+    font-weight: 400;
 }
 .card-text{
     padding-top: 20px;
@@ -402,7 +407,7 @@ b{
 .testimonial-title{
     color: #19488F;
     font-size: 42px;
-    font-weight: 700;
+    font-weight: 600;
 }
 .testimonial-carousel-container{
     width: 670px;
