@@ -35,6 +35,14 @@
 .card:hover{
     background: none;
 }
+@media only screen and (max-width: 766px){
+
+    .card-header img{
+        height: 150px;
+        width: 150px;
+        margin-top: 20px;
+    }
+}
 .card-header img{
     height: 102px;
     width: 102px;
@@ -53,6 +61,6 @@
 .card-text{
     padding-top: 10px;
     color: #666;
-    font-size: 16px;
+    font-size: 14px;
     font-style: italic;
 }

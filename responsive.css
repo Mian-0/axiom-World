@@ -37,9 +37,11 @@
         font-size: 27px;
     }
     h2{
-        font-size: 12px;
+        font-size: 15px;
         border-bottom: 3.2px solid #DD1818;
         line-height: 14px;
+        font-weight: 600;
+        text-transform: capitalize;
     }
     b{
         font-weight: 600;

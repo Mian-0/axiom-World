@@ -60,7 +60,7 @@ h2{
     margin: 0 auto;
 }
 .custom-class-for-text{
-    font-size: 17.3px;
+    font-size: 16px;
 }
 .custom-spacing-for-cols{
     padding-left: 25px;
@@ -168,6 +168,9 @@ hr{
 .custom-widths-for-software-cards:hover{
     scale: 1.1;
 }
+b,strong{
+    font-weight: 600;
+}
 /* Header */
 .custom-header-class{
     height: 70px;
@@ -274,9 +277,6 @@ hr{
     border-radius: 12px;
     box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
     padding: 17px 17px 17px 17px;
-}
-b{
-    font-weight: 600;
 }
 .custom-spacing-for-hero-col-1{
     padding: 98px 0 0 25px;
